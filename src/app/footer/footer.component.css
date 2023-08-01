@@ -1,0 +1,51 @@
+.footer{
+display: flex;
+  background-color: #BFD99F;
+  width: 100%;
+}
+
+.ventive-img{
+    max-width: 121px;
+    max-height: 17px;
+}
+
+.brm-img{
+    max-width: 121px;
+    max-height: 24px;
+}
+
+.boysandgirlsclub-img{
+    max-width: 121px;
+    max-height: 26px;
+}
+
+.bds-img{
+    max-width: 91px;
+    max-height: 86px;
+}
+
+@media  screen and (max-width:600px) {
+    .footer{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .ventive-img{
+        max-width: 60px;
+        max-height: 8px;
+    }
+    
+    .brm-img{
+        max-width: 60px;
+        max-height: 12px;
+    }
+    
+    .boysandgirlsclub-img{
+        max-width: 60px;
+        max-height: 13px;
+    }
+    
+    .bds-img{
+        max-width: 45px;
+        max-height: 43px;
+    }
+}

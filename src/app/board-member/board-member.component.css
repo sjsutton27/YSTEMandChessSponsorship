@@ -1,0 +1,55 @@
+/*Board Member image and description*/
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+    flex-wrap: wrap;
+}
+.one-container{
+    display: flex;
+    flex-direction: column;
+    max-width:522px;
+    max-height: 100%;
+    align-items: center;
+    z-index: 1;
+    margin-top: -15%;
+}
+.board_member{
+    max-width: 100%;
+    max-height: 100%;
+}
+.one-container h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #231F20;
+    padding: 5px;
+  }
+  .one-container p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #231F20;
+    padding: 5px;
+  }
+.two-container{
+    max-width:550px;
+    max-height: 100%;
+    margin-bottom: 5%;
+    margin: auto;
+}
+.two-container p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #231F20;
+}

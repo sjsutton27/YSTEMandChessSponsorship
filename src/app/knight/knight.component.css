@@ -1,0 +1,55 @@
+/*Knight Image and becoming a sponsor to help STEM Students*/
+.container {
+  display: flex;
+  flex-direction: row;
+  max-height: 100%;
+  max-width: 800px;
+  margin-left:-1%;
+  margin-bottom: 10%;
+  background-color: #BFD99E;
+  }
+  .custom-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 850px;
+    max-height: 302px;
+    text-align: center;
+  }
+  
+  .custom-container h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .Knight3{
+    max-width: 348px;
+    max-height: 302px;
+    margin-right: -18%;
+  }
+  
+  
+  
+  @media screen and (max-width: 1000px){
+    .custom-container h1{
+    font-size: 20px;
+    }
+    .container{
+      flex-direction: column;
+    }
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

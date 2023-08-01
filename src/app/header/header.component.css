@@ -1,0 +1,21 @@
+.navbar{
+    margin: 0;
+}
+
+
+.logo-image{
+    margin-bottom: 10px;
+    padding: 0px;
+    max-height: 109px;
+    max-width: 260px;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+.signup-button{
+border: none; 
+  background-color: transparent;
+  padding: 0;
+}
